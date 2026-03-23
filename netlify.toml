@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+
+# This redirects all missing routes to the index.html, useful for SPAs
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
